@@ -1,6 +1,6 @@
 # SNOWFLAKE CORE ENGINE
 
-<p align="center">
+<p>
   <a href="https://travis-ci.org/gojek/proctor"><img src="https://travis-ci.org/gojek/proctor.svg?branch=master" alt="Build Status"></img></a>
 </p>
 
