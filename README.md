@@ -11,10 +11,10 @@ SnowFlake is an application web based, and still in development until today, whi
 
 ### Prerequisites
 
-- [Python 3]
-- [Tweppy]
-- [nltk]
-- [numpy]
+- Python 3
+- Tweppy
+- nltk
+- numpy
 
 ### Quick Install
 

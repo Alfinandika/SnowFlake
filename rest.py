@@ -1,0 +1,1 @@
+print("contoh aja seh")

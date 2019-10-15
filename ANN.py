@@ -237,13 +237,3 @@ def classify(sentence, show_details=False):
     return_results =[[classes[r[0]],r[1]] for r in results]
     print ("%s \n classification: %s" % (sentence, return_results))
     return return_results
-
-classify("sudo make me a sandwich")
-classify("how are you today?")
-classify("talk to you tomorrow")
-classify("who are you?")
-classify("make me some lunch")
-classify("Open BO&VCS Real! Wa 081271120398")
-print()
-classify("OPEN BO. Only 3 slots. Exclude Room - Include Room Wa.089677887029")
-classify("Hanya contoh kata, dan ngetes kata ini terdeteksi sebagai apa")

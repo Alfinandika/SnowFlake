@@ -1,10 +1,17 @@
-from tweppy_streamer import TwitterStreamer
-from ANN import classify 
+from threading import Thread
 
 
-hash_tag_list = ["jokowi"]
-fetched_tweets_filename = "tweets.json"
+def streamAndClassify():
+    from tweppy_streamer import TwitterStreamer
 
-twitter_streamer = TwitterStreamer()
-twitter_streamer.stream_tweets(fetched_tweets_filename, hash_tag_list)
+    hash_tag_list = ["openbo"]
+    fetched_tweets_filename = "tweets.json"
 
+    twitter_streamer = TwitterStreamer()
+    twitter_streamer.stream_tweets(fetched_tweets_filename, hash_tag_list)
+
+def restApi():
+    print("contoh aja seh")
+
+Thread(target = streamAndClassify).start() 
+Thread(target = restApi).start() 
