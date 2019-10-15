@@ -24,6 +24,15 @@ Clone this project
 git clone https://github.com/alfinandika/snowflake.git
 ```
 
+Fill yout consumer API keys, Access token & access token secret in config.py
+
+```python
+ACCESS_TOKEN = ""
+ACCESS_TOKEN_SECRET = ""
+CONSUMER_KEY = ""
+CONSUMER_SECRET = ""
+```
+
 run
 ```bash
 python3 main.py
