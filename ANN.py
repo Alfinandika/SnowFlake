@@ -7,19 +7,14 @@ import datetime
 stemmer = LancasterStemmer()
 import numpy as np
 import time
+from controller import datasets
 
 # 3 classes of training data
 training_data = []
-training_data.append({"class":"positive", "sentence":"OPEN 'BO' ST / LT & VCS SLOT FULL !! +62 82361655254 Chat & Dm "})
-training_data.append({"class":"positive", "sentence":"#availdepok #BOdepok Ready/Avail include room Rules? Wa/DM Wa:089607520166 #openbo #openBOdepok #OpenBooking #bisyardepok  #ladiesnight #BOdepok  #cewekBO #RealAngel #AVAILBO #KulinerLendir #includedepok #bispakhot #availdepok #BOdepok"})
-training_data.append({"class":"positive", "sentence":"Avail include/exclude room No cod/no nego Rr by dm All rates no nego"})
-training_data.append({"class":"positive", "sentence":"OPEN BO. Only 3 slots. Exclude Room - Include Room Wa.089677887029"})
 
-
-training_data.append({"class":"negative", "sentence":"make me a sandwich"})
-training_data.append({"class":"negative", "sentence":"can you make a sandwich?"})
-training_data.append({"class":"negative", "sentence":"having a sandwich today?"})
-training_data.append({"class":"negative", "sentence":"what's for lunch?"})
+for i in datasets():
+   training_data.append(i)
+   
 print ("%s sentences in training data" % len(training_data))
 
 

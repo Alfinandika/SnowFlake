@@ -19,4 +19,5 @@ def restApi():
 
 print("SNOWFLAKE 1.0")
 Thread(target = streamAndClassify).start() 
-Thread(target = restApi).start() 
+Thread(target = restApi).start()
+

@@ -49,6 +49,22 @@ def users():
 	finally:
 		cursor.close() 
 		conn.close()
+
+@app.route('/datasets')
+def datasets():
+	try:
+		conn = mysql.connect()
+		cursor = conn.cursor(pymysql.cursors.DictCursor)
+		cursor.execute("SELECT * FROM datasets")
+		rows = cursor.fetchall()
+		resp = jsonify(rows)
+		resp.status_code = 200
+		return resp
+	except Exception as e:
+		print(e)
+	finally:
+		cursor.close() 
+		conn.close()
 		
 @app.route('/user/<int:id>')
 def user(id):
