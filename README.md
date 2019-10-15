@@ -7,6 +7,7 @@
 ## Description
 SnowFlake is an application web based, and still in development until today, which has a function to detect prostitution accounts in twitter for Indonesian accounts. At the begin of snowflake project, the objective is how to protect our next generation (children), our family, our closest people to following or followed by bad account or something that’s not good.
 
+So start from that problems, we trying to create an application for detect some prostitution accounts start from twitter using artificial intelligence engine (machine learning) that we created by our self, that can help any institution that maybe have authority to respond this problems.
 ## Getting Started
 
 ### Prerequisites
@@ -24,7 +25,7 @@ Clone this project
 git clone https://github.com/alfinandika/snowflake.git
 ```
 
-Fill yout consumer API keys, Access token & access token secret in config.py
+Fill your consumer API keys, Access token & access token secret in config.py
 
 ```python
 ACCESS_TOKEN = ""
