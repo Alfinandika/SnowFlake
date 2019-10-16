@@ -4,7 +4,7 @@ from threading import Thread
 def streamAndClassify():
     from tweppy_streamer import TwitterStreamer
 
-    hash_tag_list = ["openbo"]
+    hash_tag_list = ["prabowo"]
     fetched_tweets_filename = "tweets.json"
 
     twitter_streamer = TwitterStreamer()
