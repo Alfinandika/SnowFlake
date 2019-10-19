@@ -1,0 +1,77 @@
+[33mcommit aa13a11436f71470dac39035071cd4f3f8fb3f62[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mgithub/master[m[33m)[m
+Author: Alfin Andika <alfinandika07@gmail.com>
+Date:   Sat Oct 19 07:33:37 2019 +0700
+
+    change config
+
+[33mcommit 9e20d94ac051c415fcac855442e65181c642a00d[m
+Author: Alfin Andika <alfinandika07@gmail.com>
+Date:   Wed Oct 16 20:08:50 2019 +0700
+
+    added helper remove emoji
+
+[33mcommit d829c543942f99ecf67a151e72b625c2652eb8b3[m
+Author: Alfin Andika <alfinandika07@gmail.com>
+Date:   Tue Oct 15 11:09:34 2019 +0700
+
+    get datasets from database
+
+[33mcommit f1855970b89950506437ea903a91100fe364f5f9[m
+Author: Alfin Andika <alfinandika07@gmail.com>
+Date:   Tue Oct 15 10:27:29 2019 +0700
+
+    edit config
+
+[33mcommit bd47fd4006e39cf13eceb850ee76485e9b1147de[m
+Author: Alfin Andika <alfinandika07@gmail.com>
+Date:   Tue Oct 15 10:26:09 2019 +0700
+
+    core develop
+
+[33mcommit 7b3fc4440a028696841386bbf8cf195c6b7b36ab[m
+Author: Alfin Andika <alfinandika07@gmail.com>
+Date:   Tue Oct 15 08:45:42 2019 +0700
+
+    edit README
+
+[33mcommit 0e6eebb3a1ac3dfb921b41f70461bf0487488611[m
+Author: Alfin Andika <alfinandika07@gmail.com>
+Date:   Tue Oct 15 08:39:06 2019 +0700
+
+    test rest API
+
+[33mcommit a57c8946c5b7db16c954ca03c873a35a356fb4a5[m
+Author: Alfin Andika <alfinandika07@gmail.com>
+Date:   Tue Oct 15 07:14:27 2019 +0700
+
+    added parallel processing
+
+[33mcommit e71511089af456d383d632b3f1c8a998e04a00d6[m
+Author: Alfin Andika <alfinandika07@gmail.com>
+Date:   Mon Oct 14 19:40:17 2019 +0700
+
+    edit README
+
+[33mcommit d7138a23a4c65c4c0a8b9ca8fdf680aa0aa18977[m
+Author: Alfin Andika <alfinandika07@gmail.com>
+Date:   Mon Oct 14 19:29:37 2019 +0700
+
+    add streamer twitter
+
+[33mcommit 436db453b34bd568e96adaf5419f2a75c4541bf7[m
+Author: Alfin Andika <alfinandika07@gmail.com>
+Date:   Mon Oct 14 09:41:12 2019 +0700
+
+    main
+
+[33mcommit 8e030a4cdc44c5a8cd93bfcdfeb506937272c0e7[m
+Author: Alfin Andika <alfinandika07@gmail.com>
+Date:   Mon Oct 14 09:33:16 2019 +0700
+
+    init
+
+[33mcommit 7f54b7228c2986fa9d444ad5c7a7c058eca3ffe7[m
+Author: Alfin Andika <alfinandika07@gmail.com>
+Date:   Mon Oct 14 09:32:22 2019 +0700
+
+    init
