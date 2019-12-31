@@ -4,7 +4,7 @@ from tweepy import Stream
 import json
 import config
 from ANN import classify 
-from controller import insert
+from controller import historyDetection
 from helper import removeEmoji
 
 # # # # TWITTER STREAMER # # # #
@@ -45,13 +45,15 @@ class StdOutListener(StreamListener):
             #print("=====================================================================")
             print("username : ", jsonData["user"]["screen_name"])
 
-
-            classify(tweetNoEmoji)
+            classifyT = classify(tweetNoEmoji)
+            classN = str(classifyT[0][0])
+            classification = str(classifyT[0][1])
+            
             print("=====================================================================")
 
-
-            insert("negative", tweetNoEmoji)
-            ##with open(self.fetched_tweets_filename, 'a') as tf:
+            historyDetection(jsonData["user"]["screen_name"], tweetNoEmoji, classN, classification)
+            #insert("negative", tweetNoEmoji)
+            ##with open(self.fetched_tweets_filename, 'a') as tf:[]
             ##    tf.write(data)
             return True
         except BaseException as e:

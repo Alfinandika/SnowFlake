@@ -9,7 +9,6 @@ import numpy as np
 import time
 from controller import datasets
 
-# 3 classes of training data
 training_data = []
 
 for i in datasets():
@@ -208,7 +207,7 @@ y = np.array(output)
 
 start_time = time.time()
 
-train(X, y, hidden_neurons=20, alpha=0.1, epochs=100000, dropout=False, dropout_percent=0.2)
+#train(X, y, hidden_neurons=20, alpha=0.1, epochs=100000, dropout=False, dropout_percent=0.2)
 
 elapsed_time = time.time() - start_time
 print ("processing time:", elapsed_time, "seconds")
@@ -224,7 +223,7 @@ with open(synapse_file) as data_file:
     synapse_0 = np.asarray(synapse['synapse0']) 
     synapse_1 = np.asarray(synapse['synapse1'])
 
-def classify(sentence, show_details=False):
+def classify(sentence, show_details=True):
     results = think(sentence, show_details)
 
     results = [[i,r] for i,r in enumerate(results) if r>ERROR_THRESHOLD ] 
